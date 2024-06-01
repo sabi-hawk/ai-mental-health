@@ -1,0 +1,67 @@
+[
+  {
+    "displayName": "Depression",
+    "name": "depression-test",
+    "imageUrl": "https://www.mind-diagnostics.org/assets/2018/test_thumbs/img-depression-628a403af8bb5e82ba9195b1a2b8a82bab1ab11aeda5d8eef8b4965a6d529e7d.jpg"
+  },
+  {
+    "displayName": "Anxiety",
+    "name": "anxiety-test",
+    "imageUrl": "https://www.mind-diagnostics.org/assets/2018/test_thumbs/img-anxiety-5f9f7569671db704e193603846710623db42f672ae996b0c26c162ae84942e63.jpg"
+  },
+  {
+    "displayName": "Adult ADHD",
+    "name": "adhd-test",
+    "imageUrl": "https://www.mind-diagnostics.org/assets/2018/test_thumbs/img-adhd-ad20e4e680b17b7999f685003fe2dfa4acc20c805631ab87ca5586926d75b536.jpg"
+  },
+  {
+    "displayName": "PTSD",
+    "name": "ptsd-test",
+    "imageUrl": "https://www.mind-diagnostics.org/assets/2018/test_thumbs/img-ptsd-db470ecaec031afc0e16c1177d921c603aead85ee2758acffa544746b33e5b0c.jpg"
+  },
+  {
+    "displayName": "Borderline Personality Disorder",
+    "name": "borderline_personality_disorder-test",
+    "imageUrl": "https://www.mind-diagnostics.org/assets/2018/test_thumbs/personality_disorder-a6d1d5f411fc58eec3b20d926d5461e18a363546daa460621b52653f5a0decbd.jpg"
+  },
+  {
+    "displayName": "Eating Disorder",
+    "name": "eating_disorder-test",
+    "imageUrl": "https://www.mind-diagnostics.org/assets/2018/test_thumbs/img-eating_disorder-20a3976b7fcd6d457a97b483a8b6abfd636f7b08b2b6dc9e3ebd7666dd034c0f.jpg"
+  },
+  {
+    "displayName": "Gambling Addiction",
+    "name": "gambling_addiction-test",
+    "imageUrl": "https://www.mind-diagnostics.org/assets/2018/test_thumbs/img-gambling-5d36087bde874e4cf313b3203b5b822c2bbc58c11452fce382efb67520652158.jpg"
+  },
+  {
+    "displayName": "Mania",
+    "name": "mania-test",
+    "imageUrl": "https://www.mind-diagnostics.org/assets/2018/test_thumbs/img-mania-0153db83363b8a22f5de47eb32401763f5345388dcf7c0b7bc23d5395ceae4f7.jpg"
+  },
+  {
+    "displayName": "Postpartum Depression",
+    "name": "postpartum_depression-test",
+    "imageUrl": "https://www.mind-diagnostics.org/assets/2018/test_thumbs/img-post_depression-8295fabf1e3437a6ec0dfc87e2429ba589757538723b28bc99fef1f3a96cf77c.jpg"
+  },
+  {
+    "displayName": "Internet Addiction",
+    "name": "internet_addiction-test",
+    "imageUrl": "https://www.mind-diagnostics.org/assets/2018/test_thumbs/img-internet-b54682d16693656db2fab9c9ffd68a503e2b3c3295570c0e012419ad1ca3b3e3.jpg"
+  },
+  {
+    "displayName": "Job Burnout",
+    "name": "job_burnout-test",
+    "imageUrl": "https://www.mind-diagnostics.org/assets/2018/test_thumbs/job_burnout-f1cde21021626713d92c14d38591ede0da828ecd158a7760c7b291d06617a857.jpg"
+  },
+  {
+    "displayName": "Toxic Workplace",
+    "name": "toxic_workplace_workplace_health-test",
+    "imageUrl": "https://www.mind-diagnostics.org/assets/2018/test_thumbs/img-toxic_workplace-8e879dbe5299a848552666443aed3a98660ec47b5ddc606383a041f8efb61439.jpg"
+  },
+  {
+    "displayName": "Panic Disorder",
+    "name": "panic_attacks_disorder-test",
+    "imageUrl": "https://www.mind-diagnostics.org/assets/2018/test_thumbs/img-panic-324f3942c0d418f1b122a1159984b13f8e208bef16842ac4481d6e237049392a.jpg"
+  }
+]

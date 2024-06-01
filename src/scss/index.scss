@@ -1,0 +1,558 @@
+h1 {
+  font-family: "Poetsen One", sans-serif;
+  font-weight: 400;
+  font-size: 50px;
+  max-width: 600px;
+  width: 100%;
+  font-style: normal;
+  text-align: center;
+}
+
+p {
+  font-family: "Edu TAS Beginner", cursive;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+  color: white;
+  text-align: center;
+  font-size: 26px;
+}
+
+.roboto-bold {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.un-auth-wrapper {
+  flex-direction: column;
+  // height: 100vh;
+  background: linear-gradient(
+      rgb(101, 188, 208, 0.75),
+      rgb(117, 117, 213, 0.75)
+    ),
+    /* Overlay color */
+      url("https://medicate.peacefulqode.co.in/wp-content/uploads/2022/04/2-61.jpg");
+  // background-repeat: no-repeat;
+  background-size: cover;
+
+  .header {
+    height: 9%;
+    padding: 10px 50px;
+    gap: 30px;
+    align-items: center;
+    .icon-main {
+      content: url(../assets/brain.png);
+      height: 100px;
+      width: 100px;
+      filter: brightness(100);
+    }
+    h3 {
+      font-weight: 600;
+      font-size: 36px;
+      margin: 0;
+      font-family: revert-layer;
+      color: #000;
+      border-bottom: 3px solid #000;
+      border-radius: 13%;
+    }
+  }
+  .container {
+    height: 100vh;
+    // background: linear-gradient(to right, #65bcd0, #7575d5);
+  }
+}
+
+.landing-page {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+
+  .brief-into {
+    h1 {
+      margin: 100px auto 10px auto;
+      text-align: center;
+    }
+
+    h2 {
+      margin: 50px 250px 10px 250px;
+    }
+  }
+  .body-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 60px;
+    gap: 20px;
+    .consultant {
+      background-image: url("../assets/consultant.jpg");
+      width: 300px;
+      height: 270px;
+      background-size: cover;
+    }
+    .chatbot {
+      background-image: url("../assets/chatbot.jpg");
+      width: 300px;
+      height: 270px;
+      background-size: cover;
+    }
+    .title {
+      h2 {
+        border: 2px solid;
+        margin-top: 0;
+        padding: 10px;
+        border-radius: 0px 0px 5px 5px;
+      }
+    }
+    .consultant-container,
+    .chatbot-container {
+      cursor: pointer;
+    }
+  }
+
+  h1,
+  h2 {
+    color: white;
+    font-weight: 500;
+  }
+}
+.row-body::before {
+  background: url("https://www.mind-diagnostics.org/assets/2018/bg_root-723402ddc720933ab22236b7833e8df9ea2cb171fded537ed3dd112e75ac3bda.png")
+    0 0 no-repeat;
+  background-size: 820px;
+}
+
+.row-body::after {
+  background: linear-gradient(to right, #17aacc, #51519f);
+}
+.chatbot-wrap {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+}
+
+.row-diseases {
+  width: 70%;
+  overflow: auto;
+  flex-wrap: nowrap;
+}
+
+/* width */
+.row-diseases::-webkit-scrollbar {
+  height: 10px;
+}
+
+/* Track */
+.row-diseases::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+.row-diseases::-webkit-scrollbar-thumb {
+  background: #17aacc;
+}
+
+/* Handle on hover */
+.row-diseases::-webkit-scrollbar-thumb:hover {
+  background: #00a2ff;
+}
+
+.col-diseases {
+  cursor: pointer;
+
+  h2 {
+    color: white;
+    font-weight: 500;
+    border: 2px solid;
+    border-left: 0;
+    border-top: 0;
+    margin-top: 0;
+    padding: 10px;
+    border-radius: 5px;
+  }
+}
+
+.img-container {
+  height: 250px;
+  background-size: cover;
+  border: 1px solid white;
+  border-radius: 5px;
+  position: relative;
+  transition: ease-in-out 0.2s;
+
+  :hover {
+    box-shadow: 0px 0px 4px 4px #fff;
+  }
+
+  .image {
+    border-radius: 5px;
+  }
+
+  h2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+}
+.img-wrapper {
+  height: 300px;
+  //   width: 300px;/
+  overflow: hidden;
+
+  img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+}
+
+.col-show-more {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #d3cbcb;
+  box-shadow: 0 11px 4px rgb(120 110 110 / 10%), 0 -1px 34px rgb(90 83 83 / 6%);
+  button {
+    border: 0;
+    font-size: 18px;
+    font-weight: 500;
+  }
+}
+
+.ant-col {
+  padding: 10px;
+  // border: 1px solid #d3cbcb;
+  // box-shadow: 0 11px 4px rgb(120 110 110 / 10%), 0 -1px 34px rgb(90 83 83 / 6%);
+  margin-bottom: 20px;
+}
+.skeleton-column {
+  height: 300px;
+  .ant-skeleton {
+    height: 100%;
+    width: 100%;
+    .ant-skeleton-image {
+      height: 100%;
+      width: 100%;
+    }
+  }
+}
+
+.container-step-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  width: 100%;
+  .heading-1 {
+    max-width: 100%;
+    margin: 100px 150px 10px 150px;
+    text-align: center;
+    font-weight: 500;
+  }
+  .heading-2 {
+    text-align: center;
+    font-weight: 500;
+    margin-top: 0;
+  }
+  h2 {
+    margin: 80px 150px 10px 150px;
+    text-align: center;
+    font-weight: 500;
+    width: 45%;
+    font-size: 1.55em;
+  }
+  .btn-wrap {
+    button {
+      background: #8b255e;
+      border: 2px solid white;
+      color: white;
+      padding: 10px 30px;
+      height: unset;
+      font-size: 16px;
+      font-weight: 500;
+      margin: 30px 30px 0px 30px;
+      font-family: cursive;
+    }
+  }
+}
+
+.container-step-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  width: 100%;
+  .form-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    color: black;
+    padding: 20px;
+    width: 50%;
+  }
+  h1 {
+    font-size: 2em;
+    margin: 100px 150px 50px 150px;
+    text-align: center;
+    font-weight: 500;
+  }
+  .description {
+    margin-top: 30px;
+    padding: 20px 100px 5px;
+    text-align: center;
+    font-size: 1.75em;
+    line-height: 1.45em;
+    font-family: montserrat, sans-serif;
+  }
+  .btn-wrap {
+    button {
+      background: #8b255e;
+      border: 2px solid white;
+      color: white;
+      padding: 10px 30px;
+      height: unset;
+      font-size: 16px;
+      font-weight: 500;
+      margin: 30px 30px 0px 30px;
+      font-family: cursive;
+    }
+  }
+}
+
+.container-step-3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  width: 100%;
+
+  h1 {
+    margin: 100px 150px 10px 150px;
+  }
+  .option {
+    background: #8b255e;
+    border: 2px solid white;
+    color: white;
+    padding: 10px 30px;
+    height: unset;
+    font-size: 16px;
+    font-weight: 500;
+    margin: 30px 30px 0px 30px;
+    font-family: cursive;
+  }
+
+  .progress {
+    background: white;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 0px 7px;
+    margin: 10px 0px;
+  }
+  .body {
+    margin: 40px 0px;
+    border: 2px solid white;
+    padding: 25px;
+    .question {
+      .highlight {
+        font-size: 30px;
+        font-family: "Roboto", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        margin: 0;
+      }
+    }
+  }
+
+  .form-wrapper {
+    .header-form {
+      .info {
+        font-size: 17px;
+        font-weight: 500;
+      }
+    }
+  }
+}
+
+.container-step-4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  width: 100%;
+
+  .form-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    padding: 20px;
+  }
+  h1 {
+    font-size: 2em;
+    margin: 100px 150px 50px 150px;
+    text-align: center;
+    font-weight: 500;
+  }
+  p {
+    margin: 1.25em auto 0;
+    max-width: 400px;
+    color: #999;
+    font-size: 23px;
+  }
+  .description {
+    width: 50%;
+    color: black;
+    margin-top: 30px;
+    padding: 20px 100px 5px;
+    // color: #172a5a;
+    text-align: center;
+    font-size: 1.75em;
+    line-height: 1.45em;
+    font-family: montserrat, sans-serif;
+  }
+  .btn-wrap {
+    button {
+      background: #8b255e;
+      border: 2px solid white;
+      color: white;
+      padding: 10px 30px;
+      height: unset;
+      font-size: 16px;
+      font-weight: 500;
+      margin: 30px 30px 0px 30px;
+      font-family: cursive;
+    }
+  }
+}
+
+.headingstyle {
+  margin: 100px auto 10px auto !important;
+}
+
+.fullhead {
+  max-width: 100%;
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.container-step-5 {
+  padding: 30px;
+  background: #172d55;
+  width: 75%;
+  border-radius: 20px;
+  margin: auto;
+
+  h5 {
+    text-align: center;
+    color: white;
+    margin: 0;
+    font-weight: 100;
+  }
+
+  h2 {
+    text-align: center;
+    margin: 0;
+    color: white;
+  }
+
+  h4 {
+    margin: 0;
+    font-weight: 100;
+  }
+
+  h3 {
+    margin: 0 0 15px 0;
+    border-bottom: 1px solid white;
+    width: 150px;
+    padding-bottom: 5px;
+  }
+}
+
+.container-step-5-inner {
+  display: grid;
+  justify-content: center;
+  gap: 50px;
+  align-items: center;
+  width: 100%;
+  color: white;
+  grid-template-columns: 20% 20% 50%;
+}
+
+.ring {
+  background-color: white;
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.main-consultants {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 30px;
+  margin: 100px;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-main {
+  background-color: white;
+  padding: 15px;
+  border-radius: 12px;
+  height: fit-content;
+  width: 80%;
+  margin: auto;
+
+  button {
+    background: #8b255e;
+    border: 2px solid white;
+    color: white;
+    padding: 10px 30px;
+    height: unset;
+    font-size: 16px;
+    font-weight: 500;
+    margin: 15px auto 0px auto;
+    font-family: cursive;
+    display: block;
+    cursor: pointer;
+  }
+
+  ul {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 20px;
+    font-size: 12px;
+    row-gap: 5px;
+  }
+
+  span {
+    display: block;
+    background-color: #17aacc;
+    width: fit-content;
+    padding: 5px;
+    margin-top: 5px;
+    font-size: 12px;
+    color: white;
+  }
+
+  img {
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+    border: 2px solid #17aacc;
+    padding: 10px;
+    margin: auto;
+    display: block;
+  }
+}
